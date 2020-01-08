@@ -19,6 +19,7 @@
     font-family: 'Nunito', sans-serif;
     background-image: url("../img/saulbass5.png");
     background-repeat: no-repeat;
+    background-size: auto;
   }
   /*-------- TYPOGRAPHY -----------*/
 
@@ -70,55 +71,16 @@ blockquote {
 
 blockquotes cite{
   font-size: 0.75em;
-  color: #fafafa;}
+  color: #fafafa;
+}
 
- /*------------------- FOOTER ----------------------*/
-  footer{
-  text-align: center;
-  font-size: 0.75em;
-  padding: 2em 0 4em 0
-  }
+  /*-------------------IMAGES------------------------*/
 
-  .connections {
-    position: relative;
-    margin: 0 auto;
-  }
-
-  .connections ul {
-    margins:0;
-    padding:0;
-  }
-
-  .connections li {
-    margin: 0 15px;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-  }
-
-  .connections a: link {
-    border-bottom: none;
-  }
-
-  .connections img {
-    opacity: 0.5;
-    border: none;
-  }
-
-  .connections a: hover img {
-    opacity: 1.0;
-    border-bottom:none;
-   transition: all 0.3s ease-in-out;
-  }
-
-/*--------------IMAGES--------------*/
   img{
     display: block;
     margin: 3em auto;
     padding: 0;
     max-width: 100%;
-
-  }
 
   /*------------------- NAVIGATION ------------------*/
   nav {
@@ -153,4 +115,44 @@ blockquotes cite{
 
   nav a:hover {
       border-bottom: none;
-      color: #f2790f
+      color: #f2790f;
+
+  /*------------------- FOOTER ----------------------*/
+
+       footer{
+       text-align: center;
+       font-size: 0.75em;
+       padding: 2em 0 4em 0
+       }
+
+       .connections {
+         position: relative;
+         margin: 0 auto;
+       }
+
+       .connections ul {
+         margins:0;
+         padding:0;
+       }
+
+       .connections li {
+         margin: 0 15px;
+         padding: 0;
+         list-style: none;
+         display: inline-block;
+       }
+
+       .connections a: link {
+         border-bottom: none;
+       }
+
+       .connections img {
+         opacity: 0.5;
+         border: none;
+       }
+
+       .connections a: hover img {
+         opacity: 1.0;
+         border-bottom:none;
+        transition: all 0.3s ease-in-out;
+       }
